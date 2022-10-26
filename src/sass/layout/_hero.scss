@@ -1,0 +1,45 @@
+.hero {
+    display: flex;
+
+    &__content {
+        width: 50%;
+        padding-left: 162px;
+
+    }
+
+    &__title {
+        margin-top: 154px;
+        font-family: 'Gilroy';
+        font-size: 56px;
+        line-height: 69px;
+        color: #000000;
+    }
+
+    &__text {
+        margin-top: 36px;
+        font-family: 'Gilroy';
+        font-size: 20px;
+        line-height: 1.4;    
+        color: #000000;
+    }
+
+    &__btn {
+        margin-top: 52px;
+        font-family: 'Gilroy';
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: #F7941E;
+        border-radius: 5px;
+    }
+
+    &__img {
+        display: block;
+        width: 50%;
+        height: auto;
+    }
+}

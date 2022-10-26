@@ -1,22 +1,32 @@
 .container{
     width: 1440px;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 .title_gift{
     font-size: 32px;
     line-height: 1.18;
     text-align: center;
+    margin-bottom: 23px;
 }
 
 .text_gift{
     font-size: 18px;
     line-height: 135.94%;
     text-align: center;
+    margin-bottom: 57px;
+}
+.list_gift{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .list_title{
     font-family: 'Gilroy';
     font-size: 20px;
     line-height: 1.2;
+    margin-bottom: 75px;
 
 }
 .link_gift{
@@ -25,5 +35,13 @@
     line-height: 1.35;
 }
 .wrapp_gift{
+    padding: 24px;
+    background: #FAFAFA;
     display: flex;
+    flex-direction: column;
+    box-shadow: (10px 10px 15px rgba(0, 0, 0, 0.05));
+    width: 270px;
+}
+ul{
+    list-style: none;
 }
